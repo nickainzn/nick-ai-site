@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nick AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="app">
+  <header>Nick AI • Local Intelligence</header>
+
+  <div class="chat" id="chat"></div>
+
+  <div class="input-area">
+    <input id="prompt" placeholder="Digite sua pergunta..." />
+    <button onclick="send()">Enviar</button>
+  </div>
+
+  <div class="cost">
+    Tokens usados: <span id="tokens">0</span>
+  </div>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
